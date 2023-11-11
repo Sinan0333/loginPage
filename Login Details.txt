@@ -1,0 +1,4 @@
+Username: Faris
+Password: 0000
+
+Change if needed, details can be edited on routes\login.js
