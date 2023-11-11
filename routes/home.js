@@ -71,11 +71,11 @@ router.get("/", function (req, res, next) {
     },
     
   ];
-  if (req.session.login) {
-    res.render("home", { items });
-  } else {
-    res.redirect("/");
-  }
+  // if (req.session.login) {
+  //   res.render("home", { items });
+  // } else {
+  //   res.redirect("/");
+  // }
 });
 
 module.exports = router;
